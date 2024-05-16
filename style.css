@@ -1,0 +1,103 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  font-family: 'Architects Daughter', cursive;
+  
+}
+
+.btn {
+  border-radius: 7px;
+  background: black;
+  color: rgb(43, 255, 0);
+  font-weight: bold;
+  border: 2px solid rgb(43, 255, 0);;
+  width: 10%;
+  padding: 5px;
+  font-size: 20px;
+}
+.btn:hover {
+  background: orange;
+  color: black;
+}
+
+#ourMenu {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: rgb(43, 255, 0);;
+  font-size: 64px;
+}
+
+#buttonRow {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid rgb(43, 255, 0);;
+}
+
+.food-item {
+  display: flex;
+  padding-bottom: 25px;
+  width: 45%;
+}
+
+#items-container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.headline {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(43, 255, 0);;
+  font-size: 24px !important;
+}
+
+.food-desc {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.food-text {
+  padding-top: 5px;
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.food-img {
+  height: 150px;
+  width: 200px;
+  max-width: 200px;
+  border-radius: 25px;
+  border: 2px solid rgb(43, 255, 0);;
+}
+
+.food-name {
+  padding-left: 10px;
+}
+
+.active {
+  background: rgb(43, 255, 0);;
+  color: black;
+}
+
+.food-heading {
+  color: rgb(43, 255, 0);;
+  font-size: 28px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid white;
+}
